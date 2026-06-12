@@ -28,3 +28,6 @@ It's all manual. Just exclude them from either the item or location list.
 
 ## How do I install the mod for a Manual game?
 You don't. There is no mod. The tasks of marking locations as checked and limiting your items used based on items received is all performed by you (the player) while using the Manual client and its accompanying tracker.
+
+## How do I get a yaml?
+Use Archipelago's built-in Options Creator to generate a yaml.
