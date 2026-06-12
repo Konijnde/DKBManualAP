@@ -1,0 +1,61 @@
+{
+    "Fossils": {
+        "hidden": true,
+        "yaml_option": ["include_fossils"]
+    },
+    "Chip Exchange": {
+        "hidden": true,
+        "yaml_option": ["include_chip_exchange"]
+    },
+    "Growtone": {
+        "hidden": true,
+        "yaml_option": ["include_growtones"]
+    },
+    "02 Hilltop Layer Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "04 The Divide Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "07 The Junction Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "08 Resort Layer Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "10 Landfill Layer Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "11 Racing Layer Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "13 Groove Layer Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "15 Forbidden Layer Bananas": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "02 Hilltop Layer Fossils": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "08 Resort Layer Fossils": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "10 Landfill Layer Fossils": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "13 Groove Layer Fossils": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "15 Forbidden Layer Fossils": {
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "Small Layer": {
+        "hidden": true,
+        "yaml_option": ["!remove_small_layers"]
+    },
+    "Smashing Stats": {
+        "hidden": true,
+        "yaml_option": ["include_smashing_stats"]
+    }
+}

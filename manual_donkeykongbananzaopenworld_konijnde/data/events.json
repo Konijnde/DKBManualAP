@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Generic concrete destruction",
+        "requires": "|Kong Bananza| or (|Snake Bananza| and |Meteor Punch|) or (|Ostrich Bananza| and |Egg Bomb: 1|)"
+    }
+]

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "DonkeyKongBananzaopenworld",
+  "creator": "Konijnde",
+  "filler_item_name": "OHHH BANANA",
+  "starting_items": []
+}

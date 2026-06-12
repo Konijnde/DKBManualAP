@@ -1,0 +1,60 @@
+{
+    "user": {
+        "required_banandium_gems": {
+            "type": "Range",
+            "range_start": 10,
+            "range_end": 200,
+            "default": 80,
+            "description":"How many banandium gems there are (max 200)."
+        },
+        "total_banandium_gems": {
+            "type": "Range",
+            "range_start": 10,
+            "range_end": 200,
+            "default": 100,
+            "description":"How many of the banandium gems are needed to win. Should be less than total_banandium_gems, obviously."
+        },
+        "required_health_upgrades": {
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 7,
+            "default": 3,
+            "description":"How many health upgrades you need to fight K. Rool."
+        },
+        "include_fossils": {
+            "type": "Toggle",
+            "default": true,
+            "description":"Whether fossils are locations. Disable this for sync games unless you are well-prepared."
+        },
+        "include_chip_exchange": {
+            "type": "Toggle",
+            "default": false,
+            "description":"Whether Chip Exchange bananas are needed. This will potentially require you to farm some chips."
+        },
+        "include_growtones": {
+            "type": "Toggle",
+            "default": false,
+            "description":"Whether Growtone bananas are needed. Not recommended as it necessitates gold farming."
+        },
+        "include_smashing_stats": {
+            "type": "Toggle",
+            "default": false,
+            "description":"Whether Smashing Stats bananas are needed. These may need you to farm."
+        },
+        "remove_small_layers": {
+            "type": "Toggle",
+            "default": false,
+            "description":"Enabling this will remove all small layers from the game. A layer is considered 'small' if it has no huge fossil. Recommended for sync games."
+        },
+        "terrain_destruction_logic": {
+            "type": "Toggle",
+            "default": true,
+            "description":"Adds logical requirements for either kong/elephant or sufficient punch power to enter layers. Lagoon and Hilltop are exempt from this restriction. This setting is designed to speed up the game for sync play."
+        },
+        "i_know_afats": {
+            "type": "Toggle",
+            "default": false,
+            "description":"This will make logic include advanced movement tech, most notably AFATs, LCTJs, down punch cancels and flutter stalling, as long as the movement is not excessively precise. Also includes some slightly less obvious strategies to get certain bananas."
+        }
+    }
+}

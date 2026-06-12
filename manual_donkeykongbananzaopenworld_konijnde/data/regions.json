@@ -1,0 +1,242 @@
+{
+  "Lagoon Layer 1": {
+    "starting": true,
+    "connects_to": [
+      "Lagoon Layer 2",
+      "Hilltop Layer 1",
+      "Canyon Layer 1",
+      "The Divide 1",
+      "Freezer Layer 1",
+      "Forest Layer 1",
+      "The Junction 1",
+      "Resort Layer 1",
+      "Tempest Layer 1",
+      "Landfill Layer 1",
+      "Racing Layer 1",
+      "Radiance Layer 1",
+      "Groove Layer 1",
+      "Feast Layer 1",
+      "Forbidden Layer 1",
+      "Planet Core 1"
+    ],
+    "requires": ""
+  },
+  "Lagoon Layer 2": {
+    "connects_to": [
+        "Lagoon Layer 3"
+    ],
+    "requires": "|Lagoon Layer Key: 1|"
+  },
+  "Lagoon Layer 3": {
+    "connects_to": [],
+    "requires": "|Lagoon Layer Key: 2|"
+  },
+  "Hilltop Layer 1": {
+    "connects_to": [],
+    "requires": "|Hilltop Layer Key: 1|"
+  },
+  "Canyon Layer 1": {
+    "connects_to": [
+        "Canyon Layer 2",
+        "Canyon Layer 3"
+    ],
+    "requires": "|Canyon Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 1|)"
+  },
+  "Canyon Layer 2": {
+    "connects_to": [],
+    "requires": "|Canyon Layer Key: 2|"
+  },
+  "Canyon Layer 3": {
+    "connects_to": [],
+    "requires": "|Canyon Layer Key: 2| or |Ostrich Bananza| or {YamlEnabled(i_know_afats)}"
+  },
+  "The Divide 1": {
+    "connects_to": [],
+    "requires": "|The Divide Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 2|)"
+  },
+  "Freezer Layer 1": {
+    "connects_to": [
+        "Freezer Layer 2",
+        "Freezer Layer 2a"
+    ],
+    "requires": "|Freezer Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 2|)"
+  },
+  "Freezer Layer 2a": {
+    "connects_to": [],
+    "requires": "|Freezer Layer Key: 2| and (|Zebra Bananza| or |Freezer Layer Key: 3| or {YamlEnabled(i_know_afats)})"
+  },
+  "Freezer Layer 2": {
+    "connects_to": [
+        "Freezer Layer 3"
+    ],
+    "requires": "|Freezer Layer Key: 2|"
+  },
+  "Freezer Layer 3": {
+    "connects_to": [],
+    "requires": "|Freezer Layer Key: 3|"
+  },
+  "Forest Layer 1": {
+    "connects_to": [
+        "Forest Layer 2"
+    ],
+    "requires": "|Forest Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 2|)"
+  },
+  "Forest Layer 2": {
+    "connects_to": [
+        "Forest Layer 3"
+    ],
+    "requires": "|Forest Layer Key: 2|"
+  },
+  "Forest Layer 3": {
+    "connects_to": [],
+    "requires": "|Forest Layer Key: 3|"
+  },
+  "The Junction 1": {
+    "connects_to": [],
+    "requires": "|The Junction Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 2|)"
+  },
+  "Resort Layer 1": {
+    "connects_to": [],
+    "requires": "|Resort Layer Key| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
+  },
+  "Tempest Layer 1": {
+    "connects_to": [
+        "Tempest Layer 2"
+    ],
+    "requires": "|Tempest Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
+  },
+  "Tempest Layer 2": {
+    "connects_to": [
+        "Tempest Layer 3"
+    ],
+    "requires": "|Tempest Layer Key: 2|"
+  },
+  "Tempest Layer 3": {
+    "connects_to": [
+        "Tempest Layer 4"
+    ],
+    "requires": "|Tempest Layer Key: 3|"
+  },
+  "Tempest Layer 4": {
+    "connects_to": [],
+    "requires": "|Elephant Bananza| or (|Ostrich Bananza| and |Glide: 1|) or {YamlEnabled(i_know_afats)} or |Obtain Soggy Cravat|"
+  },
+  "Landfill Layer 1": {
+    "connects_to": [],
+    "requires": "|Landfill Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
+  },
+  "Racing Layer 1": {
+    "connects_to": [],
+    "requires": "|Racing Layer Key: 1|"
+  },
+  "Radiance Layer 1": {
+    "connects_to": [
+        "Radiance Layer 2"
+    ],
+    "requires": "|Radiance Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
+  },
+  "Radiance Layer 2": {
+    "connects_to": [
+        "Radiance Layer 3"
+    ],
+    "requires": "|Radiance Layer Key: 2|"
+  },
+  "Radiance Layer 3": {
+    "connects_to": [
+        "Radiance Layer 4"
+    ],
+    "requires": "|Radiance Layer Key: 3|"
+  },
+  "Radiance Layer 4": {
+    "connects_to": [
+        "Radiance Layer 5"
+    ],
+    "requires": "|Radiance Layer Key: 4|"
+  },
+  "Radiance Layer 5": {
+    "connects_to": [],
+    "requires": "|Radiance Layer Key: 5|"
+  },
+  "Groove Layer 1": {
+    "connects_to": [],
+    "requires": "|Groove Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
+  },
+  "Feast Layer 1": {
+    "connects_to": [
+        "Feast Layer 2"
+    ],
+    "requires": "|Feast Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 4|)"
+  },
+  "Feast Layer 2": {
+    "connects_to": [],
+    "requires": "|Feast Layer Key: 2|"
+  },
+  "Forbidden Layer 1": {
+    "connects_to": [],
+    "requires": "|Forbidden Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 4|)"
+  },
+  "Planet Core 1": {
+    "connects_to": [
+      "Planet Core 2"
+    ],
+    "requires": "|Planet Core Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 4|)"
+  },
+  "Planet Core 2": {
+    "connects_to": [
+      "Planet Core 3"
+    ],
+    "requires": "|Planet Core Key: 2|"
+  },
+  "Planet Core 3": {
+    "connects_to": [
+      "Planet Core 4"
+    ],
+    "requires": "|Planet Core Key: 3|"
+  },
+  "Planet Core 4": {
+    "connects_to": [
+      "Planet Core 5"
+    ],
+    "requires": "|Planet Core Key: 4|"
+  },
+  "Planet Core 5": {
+    "connects_to": [
+      "Planet Core 6"
+    ],
+    "requires": "|Planet Core Key: 5|"
+  },
+  "Planet Core 6": {
+    "connects_to": [
+      "Planet Core 7"
+    ],
+    "requires": "|Planet Core Key: 6|"
+  },
+  "Planet Core 7": {
+    "connects_to": [
+      "Planet Core 8"
+    ],
+    "requires": "|Planet Core Key: 7|"
+  },
+  "Planet Core 8": {
+    "connects_to": [
+      "Planet Core 9"
+    ],
+    "requires": "|Planet Core Key: 8|"
+  },
+  "Planet Core 9": {
+    "connects_to": [
+      "Planet Core 10"
+    ],
+    "requires": "|Planet Core Key: 9|"
+  },
+  "Planet Core 10": {
+    "connects_to": [
+      "K. Rool"
+    ],
+    "requires": "|Planet Core Key: 10|"
+  },
+  "K. Rool": {
+    "connects_to": [],
+    "requires": "{OptionCount(Banandium Gem, required_banandium_gems)} and {OptionCount(Health, required_health_upgrades)}"
+  }
+}
