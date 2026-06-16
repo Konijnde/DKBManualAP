@@ -237,6 +237,6 @@
   },
   "K. Rool": {
     "connects_to": [],
-    "requires": "{OptionCount(Banandium Gem, required_banandium_gems)} and {OptionCount(Health, required_health_upgrades)}"
+    "requires": "{OptionCountPercent(Banandium Gem, required_banandium_gems_percentage)} and {OptionCount(Health, required_health_upgrades)}"
   }
 }

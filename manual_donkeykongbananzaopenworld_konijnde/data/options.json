@@ -1,18 +1,18 @@
 {
     "user": {
-        "required_banandium_gems": {
+        "required_banandium_gems_percentage": {
             "type": "Range",
             "range_start": 10,
-            "range_end": 200,
+            "range_end": 100,
             "default": 80,
-            "description":"How many banandium gems there are (max 200)."
+            "description":"What percentage of banandium gems is required to fight K. Rool."
         },
         "total_banandium_gems": {
             "type": "Range",
             "range_start": 10,
             "range_end": 200,
             "default": 100,
-            "description":"How many of the banandium gems are needed to win. Should be less than total_banandium_gems, obviously."
+            "description":"How many banandium gems there are."
         },
         "required_health_upgrades": {
             "type": "Range",
