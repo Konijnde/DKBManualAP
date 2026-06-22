@@ -1112,7 +1112,7 @@
 {"region":"Feast Layer 1","name":"04 - Fast-Paced Freestyle Bananzas","category":["14 Feast Layer Bananas"],"requires":"|Kong Bananza| or (|Elephant Bananza| and {YamlEnabled(i_know_afats)})"},
 {"region":"Feast Layer 1","name":"05 - Lost and Found under the Building","category":["14 Feast Layer Bananas"],"requires":""},
 {"region":"Feast Layer 1","name":"06 - Battle: Bouncy Beatings","category":["14 Feast Layer Bananas"],"requires":""},
-{"region":"Feast Layer 1","name":"07 - Snacking from the Storeroom","category":["14 Feast Layer Bananas"],"requires":""},
+{"region":"Feast Layer 1","name":"07 - Snacking from the Stockroom","category":["14 Feast Layer Bananas"],"requires":""},
 {"region":"Feast Layer 1","name":"08 - A Banana among Friends","category":["14 Feast Layer Bananas"],"requires":""},
 {"region":"Feast Layer 1","name":"09 - Battle: Wallopoid Warfare","category":["14 Feast Layer Bananas"],"requires":"|Kong Bananza| or (|Health: 1| and {YamlEnabled(i_know_afats)})"},
 {"region":"Feast Layer 1","name":"10 - A Soda Infused Banana","category":["14 Feast Layer Bananas"],"requires":""},
