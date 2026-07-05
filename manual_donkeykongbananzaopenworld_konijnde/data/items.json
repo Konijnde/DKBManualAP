@@ -1,6 +1,6 @@
 [
 {"count":100,"name":"Banandium Gem","category":["Banandium Gems"],"progression":true},
-{"count":60,"name":"Record Fragment","category":["Record Fragments"],"progression":true},
+{"count":60,"name":"Record Fragment","category":["Record Fragments"],"progression_skip_balancing":true},
 {"count":2,"name":"Lagoon Layer Key","category":["Layer Keys"],"progression":true},
 {"count":1,"name":"Hilltop Layer Key","category":["Layer Keys","Small Layer"],"progression":true},
 {"count":2,"name":"Canyon Layer Key","category":["Layer Keys"],"progression":true},
