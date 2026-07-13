@@ -1,7 +1,29 @@
 {
-  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "DonkeyKongBananzaopenworld",
   "creator": "Konijnde",
   "filler_item_name": "OHHH BANANA",
-  "starting_items": []
+  "starting_items": [
+    {
+      "items": ["Lagoon Layer Key", "Hilltop Layer Key", "Canyon Layer Key", "Freezer Layer Key", "Forest Layer Key"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Canyon Layer Key",
+      "yaml_option": ["terrain_destruction_logic"],
+      "items": ["Punch Power"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Freezer Layer Key",
+      "yaml_option": ["terrain_destruction_logic"],
+      "items": ["Punch Power"],
+      "random": 2
+    },
+    {
+      "if_previous_item": "Forest Layer Key",
+      "yaml_option": ["terrain_destruction_logic"],
+      "items": ["Punch Power"],
+      "random": 2
+    }
+  ]
 }

@@ -15,7 +15,7 @@
 {"count":1,"name":"Securitones","category":["Mechanics"],"progression":true},
 {"count":1,"name":"Architectones","category":["Mechanics"],"useful":true},
 {"count":1,"name":"Constructones","category":["Mechanics"],"progression":true},
-{"count":2,"name":"Lagoon Layer Key","category":["Layer Keys"],"progression":true},
+{"count":3,"name":"Lagoon Layer Key","category":["Layer Keys"],"progression":true},
 {"count":1,"name":"Hilltop Layer Key","category":["Layer Keys","Small Layer"],"progression":true},
 {"count":2,"name":"Canyon Layer Key","category":["Layer Keys"],"progression":true},
 {"count":1,"name":"The Divide Key","category":["Layer Keys","Small Layer"],"progression":true},

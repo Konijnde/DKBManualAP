@@ -2,40 +2,27 @@
   "Lagoon Layer 1": {
     "starting": true,
     "connects_to": [
-      "Lagoon Layer 2",
-      "Hilltop Layer 1",
-      "Canyon Layer 1",
-      "The Divide 1",
-      "Freezer Layer 1",
-      "Forest Layer 1",
-      "The Junction 1",
-      "Resort Layer 1",
-      "Tempest Layer 1",
-      "Landfill Layer 1",
-      "Racing Layer 1",
-      "Radiance Layer 1",
-      "Groove Layer 1",
-      "Feast Layer 1",
-      "Forbidden Layer 1",
-      "Planet Core 1"
+        "Lagoon Layer 2"
     ],
-    "requires": ""
+    "requires": "|Lagoon Layer Key: 1|"
   },
   "Lagoon Layer 2": {
     "connects_to": [
         "Lagoon Layer 3"
     ],
-    "requires": "|Lagoon Layer Key: 1|"
+    "requires": "|Lagoon Layer Key: 2|"
   },
   "Lagoon Layer 3": {
     "connects_to": [],
-    "requires": "|Lagoon Layer Key: 2|"
+    "requires": "|Lagoon Layer Key: 3|"
   },
   "Hilltop Layer 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|Hilltop Layer Key: 1|"
   },
   "Canyon Layer 1": {
+    "starting": true,
     "connects_to": [
         "Canyon Layer 2",
         "Canyon Layer 3"
@@ -51,10 +38,12 @@
     "requires": "|Canyon Layer Key: 2| or |Ostrich Bananza| or {YamlEnabled(i_know_afats)}"
   },
   "The Divide 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|The Divide Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 2|)"
   },
   "Freezer Layer 1": {
+    "starting": true,
     "connects_to": [
         "Freezer Layer 2",
         "Freezer Layer 2a"
@@ -76,6 +65,7 @@
     "requires": "|Freezer Layer Key: 3|"
   },
   "Forest Layer 1": {
+    "starting": true,
     "connects_to": [
         "Forest Layer 2"
     ],
@@ -92,14 +82,17 @@
     "requires": "|Forest Layer Key: 3|"
   },
   "The Junction 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|The Junction Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 2|)"
   },
   "Resort Layer 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|Resort Layer Key| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
   },
   "Tempest Layer 1": {
+    "starting": true,
     "connects_to": [
         "Tempest Layer 2"
     ],
@@ -122,14 +115,17 @@
     "requires": "|Elephant Bananza| or (|Ostrich Bananza| and |Glide: 1|) or {YamlEnabled(i_know_afats)} or |Obtain Soggy Cravat|"
   },
   "Landfill Layer 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|Landfill Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
   },
   "Racing Layer 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|Racing Layer Key: 1|"
   },
   "Radiance Layer 1": {
+    "starting": true,
     "connects_to": [
         "Radiance Layer 2"
     ],
@@ -158,10 +154,12 @@
     "requires": "|Radiance Layer Key: 5|"
   },
   "Groove Layer 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|Groove Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 3|)"
   },
   "Feast Layer 1": {
+    "starting": true,
     "connects_to": [
         "Feast Layer 2"
     ],
@@ -172,10 +170,12 @@
     "requires": "|Feast Layer Key: 2|"
   },
   "Forbidden Layer 1": {
+    "starting": true,
     "connects_to": [],
     "requires": "|Forbidden Layer Key: 1| and ({YamlDisabled(terrain_destruction_logic)} or |Kong Bananza| or |Elephant Bananza| or |Punch Power: 4|)"
   },
   "Planet Core 1": {
+    "starting": true,
     "connects_to": [
       "Planet Core 2"
     ],
