@@ -1,6 +1,6 @@
 [
 {"count":100,"name":"Banandium Gem","category":["Banandium Gems"],"progression":true},
-{"count":60,"name":"Record Fragment","category":["Record Fragments"],"progression_skip_balancing":true},
+{"count":60,"name":"Record Fragment","category":["Record Fragments","Record Fragments hidden"],"progression_skip_balancing":true},
 {"count":1,"name":"Challenge Courses","category":["Mechanics"],"progression":true},
 {"count":1,"name":"Battle Challenges","category":["Mechanics"],"progression":true},
 {"count":1,"name":"Shifty Smashes","category":["Mechanics"],"progression":true},

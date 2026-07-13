@@ -1,4 +1,8 @@
 {
+    "Record Fragments hidden": {
+        "hidden": true,
+        "yaml_option": ["enable_record_fragments"]
+    },
     "Fossils": {
         "hidden": true,
         "yaml_option": ["include_fossils"]

@@ -1363,10 +1363,10 @@
 {"region":"Planet Core 9","name":"R09 - SL1608 Crystal","category":["16 Planet Core Fossils","Fossils"],"requires":""},
 {"region":"Planet Core 10","name":"R10 - SL1609 Exploritone","category":["16 Planet Core Fossils","Fossils"],"requires":""},
 {"region":"Planet Core 7","name":"Planet Core Extra-Rare Fossil","sort-key":"Z","category":["16 Planet Core Fossils","Fossils"],"requires":""},
-{"name":"10 Record Fragments","category":["Unlocks"],"requires":"|Record Fragment:10|","prehint":true,"place_item_category":["Bananzas"]},
-{"name":"20 Record Fragments","category":["Unlocks"],"requires":"|Record Fragment:20|","prehint":true,"place_item_category":["Bananzas"]},
-{"name":"30 Record Fragments","category":["Unlocks"],"requires":"|Record Fragment:30|","prehint":true,"place_item_category":["Bananzas"]},
-{"name":"40 Record Fragments","category":["Unlocks"],"requires":"|Record Fragment:40|","prehint":true,"place_item_category":["Bananzas"]},
-{"name":"50 Record Fragments","category":["Unlocks"],"requires":"|Record Fragment:50|","prehint":true,"place_item_category":["Bananzas"]},
+{"name":"10 Record Fragments","category":["Unlocks","Record Fragments hidden"],"requires":"|Record Fragment:10|","prehint":true,"place_item_category":["Bananzas"]},
+{"name":"20 Record Fragments","category":["Unlocks","Record Fragments hidden"],"requires":"|Record Fragment:20|","prehint":true,"place_item_category":["Bananzas"]},
+{"name":"30 Record Fragments","category":["Unlocks","Record Fragments hidden"],"requires":"|Record Fragment:30|","prehint":true,"place_item_category":["Bananzas"]},
+{"name":"40 Record Fragments","category":["Unlocks","Record Fragments hidden"],"requires":"|Record Fragment:40|","prehint":true,"place_item_category":["Bananzas"]},
+{"name":"50 Record Fragments","category":["Unlocks","Record Fragments hidden"],"requires":"|Record Fragment:50|","prehint":true,"place_item_category":["Bananzas"]},
 {"region":"Planet Core 3","name":"Bought Soggy Cravat","category":["Unlocks"],"requires":"|Soggy Cravat: 1| and |Shops|","place_item":["Obtain Soggy Cravat"]}
 ]
