@@ -81,17 +81,35 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
-    itemNamesToRemove: list[str] = [] # List of item names
-
-    # Add your code here to calculate which items to remove.
-    #
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
-
+    itemNamesToRemove: list[str] = []
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         remove_specific_item(item_pool, item)
-
+    if not get_option_value(multiworld, player, "randomize_bananza_order"):
+        location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "10 Record Fragments")
+        item_to_place = next(i for i in item_pool if i.name == "Kong Bananza")
+        location.place_locked_item(item_to_place)
+        remove_specific_item(item_pool, item_to_place)
+        
+        location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "20 Record Fragments")
+        item_to_place = next(i for i in item_pool if i.name == "Zebra Bananza")
+        location.place_locked_item(item_to_place)
+        remove_specific_item(item_pool, item_to_place)
+        
+        location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "30 Record Fragments")
+        item_to_place = next(i for i in item_pool if i.name == "Ostrich Bananza")
+        location.place_locked_item(item_to_place)
+        remove_specific_item(item_pool, item_to_place)
+        
+        location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "40 Record Fragments")
+        item_to_place = next(i for i in item_pool if i.name == "Elephant Bananza")
+        location.place_locked_item(item_to_place)
+        remove_specific_item(item_pool, item_to_place)
+        
+        location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "50 Record Fragments")
+        item_to_place = next(i for i in item_pool if i.name == "Snake Bananza")
+        location.place_locked_item(item_to_place)
+        remove_specific_item(item_pool, item_to_place)
     return item_pool
 
     # Some other useful hook options:

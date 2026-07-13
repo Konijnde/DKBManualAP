@@ -55,6 +55,16 @@
             "type": "Toggle",
             "default": false,
             "description":"This will make logic include advanced movement tech, most notably AFATs, LCTJs, down punch cancels and flutter stalling, as long as the movement is not excessively precise. Also includes some slightly less obvious strategies to get certain bananas."
+        },
+        "enable_record_fragments": {
+            "type": "Toggle",
+            "default": true,
+            "description": "Whether unlocking Bananzas requires collecting Record Fragments. When disabled, Bananzas are instead a single item each, placed randomly."
+        },
+        "randomize_bananza_order": {
+            "type": "Toggle",
+            "default": true,
+            "description": "If Record Fragments are enabled, determines whether the five Bananzas are given out in a random order or in the fixed order Kong - Zebra - Ostrich - Elephant - Snake."
         }
     }
 }
