@@ -1058,7 +1058,7 @@
 {"region":"Groove Layer 1","name":"05 - Smash and Receive","category":["13 Groove Layer Bananas"],"requires":""},
 {"region":"Groove Layer 1","name":"06 - Gettin' Down in the Groove Layer!","category":["13 Groove Layer Bananas"],"requires":""},
 {"region":"Groove Layer 1","name":"07 - Over the Disco","category":["13 Groove Layer Bananas"],"requires":""},
-{"region":"Groove Layer 1","name":"08 - Bouncy Brainteaser","category":["13 Groove Layer Bananas"],"requires":"|Constructones|"},
+{"region":"Groove Layer 1","name":"08 - Bouncy Brainteaser","category":["13 Groove Layer Bananas"],"requires":"|Constructones| or {YamlEnabled(i_know_afats)}"},
 {"region":"Groove Layer 1","name":"10 - Destined for the Top","category":["13 Groove Layer Bananas"],"requires":"|Challenge Courses|"},
 {"region":"Groove Layer 1","name":"11 - Liftoff to the Top","category":["13 Groove Layer Bananas"],"requires":"|Challenge Courses|"},
 {"region":"Groove Layer 1","name":"12 - A Groovy Disco-very","category":["13 Groove Layer Bananas"],"requires":"|Challenge Courses|"},
