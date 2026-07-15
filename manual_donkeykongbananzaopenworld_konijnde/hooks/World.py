@@ -72,6 +72,12 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
     num_banandium_gems = get_option_value(multiworld, player, "total_banandium_gems")
     item_config["Banandium Gem"] = {ItemClassification.progression_deprioritized_skip_balancing: num_banandium_gems}
+    if get_option_value(multiworld,player,"remove_small_layers"):
+        item_config["Securitones"] = {ItemClassification.filler: 1}
+    if not get_option_value(multiworld,player,"include_growtones"):
+        item_config["Growtones"] = {ItemClassification.filler: 1}
+    if not get_option_value(multiworld,player,"include_smashing_stats"):
+        item_config["Smashintones"] = {ItemClassification.filler: 1}
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
