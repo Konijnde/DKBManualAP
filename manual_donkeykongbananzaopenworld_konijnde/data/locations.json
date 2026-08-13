@@ -371,7 +371,7 @@
 {"region":"Freezer Layer 1","name":"30 - Kept in a Coolstripe Cubby","category":["05 Freezer Layer Bananas"],"requires":""},
 {"region":"Freezer Layer 1","name":"31 - Shifty Smash: Above the Caverns","category":["05 Freezer Layer Bananas"],"requires":"|Shifty Smashes| and (|Zebra Bananza| or {YamlEnabled(i_know_afats)})"},
 {"region":"Freezer Layer 1","name":"32 - Coolstripe Cavern's Lost Treasure","category":["05 Freezer Layer Bananas"],"requires":""},
-{"region":"Freezer Layer 1","name":"33 - Shifty Smash: Ice-Cold Lakeside","category":["05 Freezer Layer Bananas"],"requires":""},
+{"region":"Freezer Layer 1","name":"33 - Shifty Smash: Ice-Cold Lakeside","category":["05 Freezer Layer Bananas"],"requires":"|Shifty Smashes|"},
 {"region":"Freezer Layer 1","name":"34 - U-Turn on a Crumbly Road","category":["05 Freezer Layer Bananas"],"requires":"|Zebra Bananza| and |Challenge Courses|"},
 {"region":"Freezer Layer 1","name":"35 - Crumbly-Road Run","category":["05 Freezer Layer Bananas"],"requires":"|Zebra Bananza| and |Challenge Courses|"},
 {"region":"Freezer Layer 1","name":"36 - A Crusty Trust Fall","category":["05 Freezer Layer Bananas"],"requires":"|Zebra Bananza| and |Challenge Courses|"},
