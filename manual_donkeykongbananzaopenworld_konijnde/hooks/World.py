@@ -91,7 +91,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         remove_specific_item(item_pool, item)
-    if not get_option_value(multiworld, player, "randomize_bananza_order"):
+    if (not get_option_value(multiworld, player, "randomize_bananza_order")) and get_option_value(multiworld, player, "enable_record_fragments"):
         location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "10 Record Fragments")
         item_to_place = next(i for i in item_pool if i.name == "Kong Bananza")
         location.place_locked_item(item_to_place)
