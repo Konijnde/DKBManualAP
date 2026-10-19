@@ -116,7 +116,7 @@
 {"region":"Lagoon Layer 2","name":"Lagoon Extra-Rare Fossil","sort-key":"Z","category":["01 Lagoon Layer Fossils","Fossils"],"requires":"","hint_entrance":"Lagoon Layer"},
 {"region":"Hilltop Layer 1","name":"01 - Bruised Peekabruiser!","category":["02 Hilltop Layer Bananas"],"requires":"","hint_entrance":"Hilltop Layer"},
 {"region":"Hilltop Layer 1","name":"02 - Cave-Dwelling Treasure","category":["02 Hilltop Layer Bananas"],"requires":"","hint_entrance":"Hilltop Layer"},
-{"region":"Hilltop Layer 1","name":"06 - Battle: Dig, Dig, Dig on Down","category":["02 Hilltop Layer Bananas"],"requires":"","hint_entrance":"Hilltop Layer"},
+{"region":"Hilltop Layer 1","name":"06 - Battle: Dig, Dig, Dig on Down","category":["02 Hilltop Layer Bananas"],"requires":"|Battle Challenges|","hint_entrance":"Hilltop Layer"},
 {"region":"Hilltop Layer 1","name":"07 - The Shifty Path under the Village","category":["02 Hilltop Layer Bananas"],"requires":"","hint_entrance":"Hilltop Layer"},
 {"region":"Hilltop Layer 1","name":"08 - A Shifty Path Forward","category":["02 Hilltop Layer Bananas"],"requires":"|Challenge Courses|","hint_entrance":"Hilltop Layer"},
 {"region":"Hilltop Layer 1","name":"09 - An Out-of-the-Way Room","category":["02 Hilltop Layer Bananas"],"requires":"|Challenge Courses|","hint_entrance":"Hilltop Layer"},
